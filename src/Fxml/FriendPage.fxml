@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="502.0" prefWidth="576.0" style="-fx-background-color: #FFFF;" stylesheets="@CSS/FriendPageCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FriendPageController">
+    <children>
+        <Pane layoutX="1.0" prefHeight="332.0" prefWidth="278.0">
+         <children>
+            <ImageView fitHeight="332.0" fitWidth="294.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/QQ图片20200619130811.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+        <Label fx:id="faccount" alignment="CENTER" layoutX="343.0" layoutY="61.0" prefHeight="30.0" prefWidth="153.0" text="账号" textFill="#808a87" />
+        <TextField fx:id="friend_label" alignment="TOP_LEFT" editable="false" layoutX="140.0" layoutY="391.0" prefHeight="51.0" prefWidth="266.0" promptText="这个人很懒，什么也没留下" />
+        <Button layoutX="467.0" layoutY="452.0" mnemonicParsing="false" onAction="#clickSubmit" prefHeight="36.0" prefWidth="63.0" text="完成" />
+      <TextField fx:id="fnickname" alignment="CENTER" layoutX="140.0" layoutY="350.0" prefHeight="24.0" prefWidth="98.0" text="昵称">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fbirth" layoutX="343.0" layoutY="101.0" prefHeight="30.0" prefWidth="187.0" text="生日" />
+      <TextField fx:id="fsex" layoutX="343.0" layoutY="141.0" prefHeight="30.0" prefWidth="53.0" text="性别" />
+      <TextField fx:id="fage" layoutX="415.0" layoutY="141.0" prefHeight="30.0" prefWidth="115.0" text="年龄" />
+      <TextField fx:id="fphoneNum" layoutX="343.0" layoutY="180.0" prefHeight="30.0" prefWidth="187.0" text="电话号码" />
+      <TextField fx:id="femail" layoutX="343.0" layoutY="226.0" prefHeight="30.0" prefWidth="187.0" text="电子邮箱" />
+      <Button layoutX="467.0" layoutY="341.0" mnemonicParsing="false" onAction="#clickEditButton" prefHeight="36.0" prefWidth="63.0" text="编辑" />
+      <Label layoutX="343.0" layoutY="273.0" prefHeight="24.0" prefWidth="40.0" text="备注：" />
+      <TextField fx:id="fRemark" editable="false" layoutX="343.0" layoutY="304.0" prefHeight="30.0" prefWidth="187.0" promptText="给好友备注一下吧" />
+      <Button fx:id="addFriend" layoutX="321.0" layoutY="452.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="98.0" text="添加好友" />
+      <ImageView fx:id="fhead" fitHeight="83.0" fitWidth="83.0" layoutX="31.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="30.0" fitWidth="29.0" layoutX="299.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/生日.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="29.0" layoutX="299.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/性别.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="29.0" layoutX="299.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/电话号码.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="29.0" layoutX="302.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/邮箱.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="302.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/qq1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="29.0" layoutX="302.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/备注.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

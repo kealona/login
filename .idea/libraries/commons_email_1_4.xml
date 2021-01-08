@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-email-1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../jar包/发送邮件验证码Jar包/commons-email-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

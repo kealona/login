@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="198.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddFriendController">
+    <children>
+        <Label layoutX="38.0" layoutY="14.0" prefHeight="47.0" prefWidth="129.0" text="查找" textFill="#1c799e">
+            <font>
+                <Font name="Candara" size="35.0" />
+            </font>
+        </Label>
+        <TextField fx:id="searchNum" layoutX="132.0" layoutY="85.0" prefHeight="48.0" prefWidth="337.0" promptText="QQ号/手机号/群号">
+            <padding>
+                <Insets left="40.0" />
+            </padding>
+        </TextField>
+      <Button fx:id="search" layoutX="359.0" layoutY="85.0" mnemonicParsing="false" onAction="#clickSearch" prefHeight="48.0" prefWidth="55.0" stylesheets="@CSS/ChatCSS.css" />
+    </children>
+</AnchorPane>

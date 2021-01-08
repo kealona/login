@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="an" prefHeight="301.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AccountController">
+   <children>
+      <Button layoutX="146.0" layoutY="224.0" mnemonicParsing="false" onAction="#clickConfirmButton" prefHeight="43.0" prefWidth="128.0" text="确认" />
+      <Text layoutX="21.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="您的账号：">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="new_Account" layoutX="131.0" layoutY="108.0" onAction="#getAccount" prefHeight="43.0" prefWidth="220.0" text="点击获取账号" />
+   </children>
+</AnchorPane>

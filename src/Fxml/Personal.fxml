@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="543.0" prefWidth="663.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PersonalController">
+    <children>
+        <Pane prefHeight="295.0" prefWidth="672.0">
+         <children>
+            <ImageView fitHeight="297.0" fitWidth="672.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/QQ图片20200619165304.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+        <TextField fx:id="MyEmail" editable="false" layoutX="381.0" layoutY="489.0" prefHeight="36.0" prefWidth="270.0" text="591446829@qq.com">
+            <font>
+                <Font size="20.0" />
+            </font>
+            <padding>
+                <Insets left="70.0" />
+            </padding>
+        </TextField>
+        <TextField fx:id="MyPhoneNum" editable="false" layoutX="381.0" layoutY="445.0" prefHeight="36.0" prefWidth="270.0" text="18944997995">
+            <font>
+                <Font size="20.0" />
+            </font>
+            <padding>
+                <Insets left="70.0" />
+            </padding>
+        </TextField>
+        <TextField fx:id="MyBirth" editable="false" layoutX="381.0" layoutY="355.0" prefHeight="36.0" prefWidth="270.0" text="2000-4-11">
+            <font>
+                <Font size="20.0" />
+            </font>
+            <padding>
+                <Insets left="70.0" />
+            </padding>
+        </TextField>
+        <Pane id="Me" layoutY="280.0" prefHeight="253.0" prefWidth="365.0">
+            <children>
+                <TextField fx:id="MyLabel" alignment="TOP_LEFT" editable="false" layoutX="35.0" layoutY="127.0" prefHeight="60.0" prefWidth="276.0" promptText="随便说点什么吧..." />
+                <TextField fx:id="MyNickName" editable="false" layoutX="146.0" layoutY="33.0" prefHeight="36.0" prefWidth="127.0" text="Karam" />
+              <Button fx:id="Submit" layoutX="121.0" layoutY="203.0" mnemonicParsing="false" onAction="#clickSubmit" prefHeight="36.0" prefWidth="62.0" stylesheets="@CSS/ChatCSS.css" text="完成" />
+            <Button fx:id="edit" layoutX="35.0" layoutY="203.0" mnemonicParsing="false" onAction="#clickEditButton" prefHeight="36.0" prefWidth="62.0" stylesheets="@CSS/ChatCSS.css" text="编辑" />
+            <ImageView fx:id="MyHead" fitHeight="83.0" fitWidth="83.0" layoutX="33.0" layoutY="30.0" onMouseClicked="#Change_head" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="348.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/qq1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="348.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/生日.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="25.0" layoutX="348.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/性别.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="25.0" layoutX="348.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/电话号码.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="25.0" layoutX="350.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@CSS/image/邮箱.png" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+      <TextField fx:id="MyAccount" alignment="CENTER" editable="false" layoutX="381.0" layoutY="304.0" prefHeight="36.0" prefWidth="270.0" text="账号">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="selectSex" layoutX="381.0" layoutY="397.0" prefHeight="39.0" prefWidth="62.0" promptText="男" style="-fx-background-color: #FFFFFF;" />
+    </children>
+</AnchorPane>

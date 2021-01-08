@@ -1,0 +1,145 @@
+.scroll-bar:vertical .track{
+    -fx-background-color:#FFFF;
+    -fx-border-color:#FFFF;
+    -fx-background-radius: 0em;
+    -fx-border-radius:2em;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button{
+    -fx-background-color:#FFFF;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-background-color: #FFFF;
+    -fx-border-width: 0px;
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color:#FFFF;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical:hover .track,
+.scroll-bar:vertical:pressed .track{
+    -fx-background-color: #FFFF;
+    -fx-opacity: 0.2;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:vertical .thumb:pressed{
+    -fx-background-color: derive(black,130%);
+}
+
+.scroll-bar:vertical .increment-button:hover ,
+.scroll-bar:vertical .decrement-button:hover{
+    -fx-background-color:#FFFF;
+    -fx-border-color:#FFFF;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+.scroll-bar:horizontal .track
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .increment-button,  .scroll-bar:horizontal .decrement-button
+{
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 10 0;
+}
+
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow{
+    -fx-shape:"";
+    -fx-padding:0;
+}
+.scroll-bar:horizontal .thumb
+{
+    -fx-background-color: #FFF;
+    -fx-background-radius: 8em;
+    -fx-border-radius: 8em;
+    -fx-pref-height: 10px;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-pane .content {
+    -fx-padding:10px;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+}
+
+#mine{
+    -fx-background-image:url("Image/background3.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 333px 139px;
+    -fx-background-radius: 2px;
+    -fx-border-width:1px;
+    -fx-border-color: #dabea4;
+    -fx-border-radius: 2px;
+
+}
+
+.tab{
+    -fx-background-color: #FFFF;
+}
+
+.tab-label{
+    -fx-text-fill: gray;
+}
+
+.tab:selected .tab-label{
+    -fx-text-fill: black;
+}
+
+.tab:selected{
+    -fx-border-color: derive(black,90%);
+    -fx-border-width: 0 0 2 0;
+}
+
+.tab-pane>*.tab-header-area>*.tab-header-background
+{
+    -fx-background-color: -fx-outer-border, -fx-text-box-border, #FFFF;
+}
+
+.tab:hover .tab-label {
+    -fx-text-fill: #003333ff;
+}
+
+.root
+{
+    -fx-focus-color: transparent;
+}
+
+.list-view{
+    -fx-background-color: transparent;
+}
+
+#AppPage{
+    -fx-background-color: #FFFF;
+}
+
+.titled-pane > .title{
+    -fx-background-color: #FFFF;
+    -fx-tab-min-height: 30px;
+}
+
+.titled-pane:hover > .title{
+    -fx-background-color: #ebe8e8;
+}
+

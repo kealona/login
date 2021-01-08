@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="521.0" prefWidth="512.0" style="-fx-background-color: #FFFF;" stylesheets="@CSS/ForgetCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ForgetController">
+    <children>
+        <Label layoutX="62.0" layoutY="16.0" prefHeight="36.0" prefWidth="155.0" text="重置密码" textFill="#2fabcd">
+            <font>
+                <Font name="DengXian Light" size="28.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.56" topOpacity="0.72" />
+            </effect>
+        </Label>
+        <TextField fx:id="forgetAccount" layoutX="108.0" layoutY="99.0" prefHeight="38.0" prefWidth="281.0" promptText="账号">
+            <padding>
+                <Insets left="30.0" />
+            </padding>
+        </TextField>
+        <TextField fx:id="forgetPhoneNum" layoutX="108.0" layoutY="223.0" prefHeight="38.0" prefWidth="281.0" promptText="邮箱">
+            <padding>
+                <Insets left="30.0" />
+            </padding>
+        </TextField>
+        <TextField fx:id="forgetNickname" layoutX="108.0" layoutY="161.0" prefHeight="38.0" prefWidth="281.0" promptText="昵称">
+            <padding>
+                <Insets left="30.0" />
+            </padding>
+        </TextField>
+        <Button fx:id="CloseBtn" layoutX="108.0" layoutY="453.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="取消" />
+        <Button fx:id="ResetBtn" layoutX="290.0" layoutY="453.0" mnemonicParsing="false" onAction="#clickResetbutton" prefHeight="36.0" prefWidth="95.0" text="重置" />
+        <PasswordField fx:id="newpassword" layoutX="108.0" layoutY="339.0" prefHeight="38.0" prefWidth="281.0" promptText="新密码">
+            <padding>
+                <Insets left="30.0" />
+            </padding>
+        </PasswordField>
+        <PasswordField fx:id="confirmpassword" layoutX="108.0" layoutY="393.0" prefHeight="38.0" prefWidth="281.0" promptText="确认密码">
+            <padding>
+                <Insets left="30.0" />
+            </padding>
+        </PasswordField>
+        <TextField fx:id="forgetCode" layoutX="108.0" layoutY="282.0" prefHeight="36.0" prefWidth="155.0" promptText="验证码">
+            <padding>
+                <Insets left="30.0" />
+            </padding>
+        </TextField>
+        <Button fx:id="GetCode" layoutX="286.0" layoutY="282.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="103.0" text="获取验证码" />
+      <ImageView fitHeight="26.0" fitWidth="44.0" layoutX="20.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/重置密码.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

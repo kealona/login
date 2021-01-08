@@ -1,0 +1,8 @@
+#GetCode,#CloseBtn,#ResetBtn{
+    -fx-background-color: #1493e7;
+    -fx-effect: dropshadow(three-pass-box, #72b9da, 10.0,0, 0, 0);
+}
+
+#GetCode:pressed,#ResetBtn:pressed,#CloseBtn:pressed{
+
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@CSS/ChatCSS.css" prefHeight="274.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CreateGroupController">
+   <children>
+      <TextField fx:id="Group_name" layoutX="180.0" layoutY="95.0" prefHeight="42.0" prefWidth="325.0" promptText="为你们的群起个给力的名字吧！">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="SubmitCreate" layoutX="229.0" layoutY="196.0" mnemonicParsing="false" onAction="#clickSubmitCreate" prefHeight="42.0" prefWidth="143.0" stylesheets="@CSS/ChatCSS.css" text="确认创建" />
+      <Text layoutX="89.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="群名称：" wrappingWidth="76.240234375">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

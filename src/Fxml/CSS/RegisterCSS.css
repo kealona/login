@@ -1,0 +1,18 @@
+#RegisterBtn{
+    -fx-background-color: linear-gradient(to bottom,#09C7F7,#08ACD6);
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #72b9da, 10.0,0, 0, 0);
+}
+
+#RegisterBtn:hover{
+    -fx-background-color: linear-gradient(to bottom,#11CFFF,#00BEEE);
+}
+
+#SendCode{
+    -fx-background-color: #1493e7;
+    -fx-text-fill: #FFFFFF;
+}
+
+#sendCode:pressed{
+    -fx-background-color: #1771c5;
+}

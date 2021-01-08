@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="262.0" prefWidth="422.0" style="-fx-background-color: #FFFF;" stylesheets="@CSS/FriendPageCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ApplyAddController">
+    <children>
+        <Label fx:id="addFriendNickname" layoutX="19.0" layoutY="51.0" prefHeight="33.0" prefWidth="101.0" text="Karam" />
+        <Label layoutX="158.0" layoutY="27.0" prefHeight="24.0" prefWidth="145.0" text="验证信息：" />
+        <Label layoutX="165.0" layoutY="165.0" prefHeight="31.0" prefWidth="46.0" text="备注:" />
+        <TextField fx:id="addFriendRemark" layoutX="204.0" layoutY="163.0" prefHeight="36.0" prefWidth="171.0" />
+        <Button layoutX="219.0" layoutY="211.0" mnemonicParsing="false" onAction="#clickRefused" prefHeight="31.0" prefWidth="46.0" text="拒绝" />
+        <Button layoutX="316.0" layoutY="211.0" mnemonicParsing="false" onAction="#clickAccept" prefHeight="31.0" prefWidth="46.0" text="接受" />
+      <Label layoutX="19.0" layoutY="105.0" prefHeight="24.0" prefWidth="91.0" text="1" />
+      <Label layoutX="19.0" layoutY="153.0" prefHeight="24.0" prefWidth="91.0" text="性别" />
+      <Label fx:id="addFriendMsg" alignment="TOP_LEFT" layoutX="158.0" layoutY="59.0" prefHeight="91.0" prefWidth="241.0" text="你好，我是" />
+    </children>
+</AnchorPane>

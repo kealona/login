@@ -1,0 +1,98 @@
+#emoji{
+    -fx-background-image: url("Image/emoji.png");
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20px 20px;
+}
+#emoji:hover,#emoji:pressed{
+    -fx-background-image: url("Image/emoji.png");
+    -fx-background-color: #f1f1f1;
+}
+
+#file{
+    -fx-background-image: url("Image/file.png");
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20px 20px;
+}
+#file:hover,#file:pressed{
+    -fx-background-image: url("Image/file.png");
+    -fx-background-color: #f1f1f1;
+}
+#image{
+    -fx-background-image: url("Image/image.png");
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20px 20px;
+}
+#image:hover,#image:pressed{
+    -fx-background-image: url("Image/image.png");
+    -fx-background-color: #f1f1f1;
+}
+
+#chatList{
+    -fx-background-image: url("image/QQ图片20200620111956.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 604px 377px;
+}
+
+#MsgBtn{
+    -fx-background-color: transparent;
+}
+
+#sendBtn{
+    -fx-background-color: transparent;
+    -fx-border-color: #b3aeae;
+    -fx-border-radius: 5px;
+}
+
+#sendBtn:hover{
+    -fx-background-color: #c4d0e3;
+}
+
+#commonWords{
+    -fx-background-color: transparent;
+    -fx-border-color: #b3aeae;
+    -fx-border-radius: 5px;
+}
+
+#SubmitCreate{
+    -fx-background-color: transparent;
+    -fx-border-color: #b3aeae;
+    -fx-border-radius: 5px;
+}
+
+#SubmitCreate:hover{
+    -fx-background-color: #b2c8eb;
+}
+
+#edit,#Submit{
+    -fx-background-color: transparent;
+    -fx-border-color: #b3aeae;
+    -fx-border-radius: 5px;
+}
+
+#Submit:hover,#edit:hover{
+    -fx-background-color: #c4d0e3;
+}
+
+#GroupFriendsPage{
+    -fx-background-color: #FFFF;
+    -fx-border-color: #e1dbdb;
+}
+
+#search{
+    -fx-background-image: url("image/搜索.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+
+
+
+

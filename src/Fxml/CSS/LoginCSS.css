@@ -1,0 +1,220 @@
+#head{
+     -fx-background-image: url("Image/head1.jpg");
+}
+#head{
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-color:transparent;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-background-size: 100px 100px;
+    -fx-background-position: center center;
+}
+#myhead{
+    -fx-background-image: url("Image/head1.jpg");
+}
+#myhead{
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-color:transparent;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-background-size: 100px 100px;
+    -fx-background-position: center center;
+}
+#background{
+    -fx-background-image: url("Image/background1.jpg");
+}
+#background,#background:hover,#background:focused{
+
+    -fx-border-width: 1px;
+    -fx-border-color: rgb(180,180,180);
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 672px 292px;
+    -fx-background-image: url("Image/background2.jpg");
+    -fx-background-position: center center;
+
+}
+#chatback{
+    -fx-background-image: url("Image/background2.jpg");
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+
+#background1{
+    -fx-background-image:url("Image/login.gif");
+    -fx-background-size:600px 240px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:-50px ;
+}
+#emoji{
+        -fx-background-image: url("Image/emoji.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#emoji:hover,#emoji:pressed{
+        -fx-background-image: url("Image/emoji.png");
+       -fx-background-color: #f1f1f1;
+}
+
+#file{
+        -fx-background-image: url("Image/file.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#file:hover,#file:pressed{
+        -fx-background-image: url("Image/file.png");
+       -fx-background-color: #f1f1f1;
+}
+#image{
+        -fx-background-image: url("Image/image.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#image:hover,#image:pressed{
+        -fx-background-image: url("Image/image.png");
+       -fx-background-color: #f1f1f1;
+}
+
+#background2{
+    -fx-background-image:url("Image/QQ图片20200620111956.jpg");
+    -fx-background-size:600px,349px;
+
+}
+
+#add{
+        -fx-background-image: url("Image/添加.png");
+        -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#add:hover,#add:pressed{
+        -fx-background-image: url("Image/添加.png");
+       -fx-background-color: #f1f1f1;
+}
+#create{
+        -fx-background-image: url("Image/创建群聊.png");
+        -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#create:hover,#create:pressed{
+        -fx-background-image: url("Image/创建群聊.png");
+       -fx-background-color: #f1f1f1;
+}
+
+#CloseBtn{
+    -fx-background-image:url("Image/close.png");
+    -fx-background-size:12px 12px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:transparent;
+    -fx-background-position: center;
+}
+
+#CloseBtn:hover,#CloseBtn:pressed{
+    -fx-background-color: #de3131;
+}
+
+#miniBtn{
+    -fx-background-image: url("image/mini2.png");
+    -fx-background-size: 15px 15px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+
+#miniBtn:hover,#miniBtn:pressed{
+    -fx-background-color:rgb(241,241,241,0.5);
+}
+
+#headImg{
+    -fx-background-size:100px 100px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:transparent;
+    -fx-background-position: center;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-effect: dropshadow(three-pass-box, #72b9da, 8.0,0, 0, 0);
+}
+
+#headImage{
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-background-position: center;
+    -fx-border-width: 20px;
+    -fx-border-color: black;
+}
+
+#LoginBtn{
+    -fx-background-color: linear-gradient(to bottom,#09C7F7,#08ACD6);
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #72b9da, 10.0,0, 0, 0);
+}
+
+#LoginBtn:hover{
+    -fx-background-color: linear-gradient(to bottom,#11CFFF,#00BEEE);
+}
+
+#RegisterLabel{
+    -fx-text-fill: #A2A2A2;
+}
+
+#RegisterLabel:hover{
+    -fx-text-fill: #777777;
+}
+
+#RegisterLabel:pressed{
+    -fx-text-fill: #00BEEE;
+}
+
+#ForgetLabel{
+    -fx-text-fill: #A2A2A2;
+}
+
+#ForgetLabel:hover{
+    -fx-text-fill: #777777;
+}
+
+#ForgetLabel:pressed{
+    -fx-text-fill: #00BEEE;
+}
+
+#userAccount:hover{
+    -fx-border-color: #B3B3B3;
+    -fx-border-radius: 3px;
+}
+
+#userAccount:focused{
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+
+#userPassword{
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+
+#userPassword:hover{
+    -fx-border-color: #B3B3B3;
+    -fx-border-radius: 3px;
+}
+
+#QQIcon{
+    -fx-background-image: url("image/QQ2.png");
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#LoginPage{
+
+}

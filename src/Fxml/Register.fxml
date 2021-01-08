@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="BackGroundPage" prefHeight="551.0" prefWidth="600.0" style="-fx-background-color: #0000;" stylesheets="@CSS/RegisterCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RegisterController">
+   <children>
+      <HBox layoutX="140.0" layoutY="100.0" prefHeight="44.0" prefWidth="320.0">
+         <children>
+            <TextField fx:id="nickname" prefHeight="60.0" prefWidth="323.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="140.0" layoutY="155.0" prefHeight="32.0" prefWidth="320.0" />
+      <TextField fx:id="register_password" layoutX="140.0" layoutY="169.0" prefHeight="44.0" prefWidth="320.0" />
+      <HBox layoutX="140.0" layoutY="226.0" prefHeight="44.0" prefWidth="120.0" />
+      <Button fx:id="RegisterBtn" layoutX="140.0" layoutY="471.0" mnemonicParsing="false" onAction="#FinishRegisterButton" prefHeight="55.0" prefWidth="320.0" text="立即注册" textFill="#2993e4">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="72.0" layoutY="20.0" prefHeight="51.0" prefWidth="294.0" text="每一天，乐在沟通">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Label>
+      <HBox layoutX="140.0" layoutY="237.0" prefHeight="44.0" prefWidth="320.0">
+         <children>
+            <DatePicker fx:id="user_birthday" prefHeight="37.0" prefWidth="320.0" />
+         </children>
+      </HBox>
+      <Text layoutX="90.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="昵称">
+         <font>
+            <Font name="Webdings" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="密码">
+         <font>
+            <Font name="Webdings" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="87.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="邮箱">
+         <font>
+            <Font name="Webdings" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="87.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="性别">
+         <font>
+            <Font name="Webdings" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="87.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="生日">
+         <font>
+            <Font name="Webdings" size="19.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="registersexMan" layoutX="172.0" layoutY="299.0" mnemonicParsing="false" onAction="#man" prefHeight="25.0" prefWidth="57.0" text="男">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="registersexWoman" layoutX="270.0" layoutY="300.0" mnemonicParsing="false" onAction="#lady" prefHeight="24.0" prefWidth="57.0" text="女">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <TextField layoutX="140.0" layoutY="346.0" prefHeight="44.0" prefWidth="320.0" />
+      <TextField fx:id="register_phoneNum" layoutX="140.0" layoutY="346.0" prefHeight="44.0" prefWidth="320.0" />
+      <Text layoutX="68.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="验证码">
+         <font>
+            <Font name="Webdings" size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="code" layoutX="140.0" layoutY="404.0" prefHeight="44.0" prefWidth="158.0" />
+      <Button fx:id="SendCode" layoutX="317.0" layoutY="404.0" mnemonicParsing="false" onAction="#clickSendCode" prefHeight="44.0" prefWidth="142.0" text="获取验证码">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CSS/image/QQ.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

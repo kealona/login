@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="310.0" prefWidth="485.0" style="-fx-background-color: #FFFF;" stylesheets="@CSS/FriendPageCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ApplyController">
+    <children>
+        <Label fx:id="addFriendNickname" layoutX="27.0" layoutY="101.0" prefHeight="24.0" prefWidth="91.0" text="Karam" />
+        <Label fx:id="addFriendAccount" layoutX="27.0" layoutY="141.0" prefHeight="24.0" prefWidth="112.0" text="账号" />
+        <Label layoutX="120.0" layoutY="27.0" prefHeight="24.0" prefWidth="220.0" text="请输入验证信息：" />
+        <TextArea fx:id="validate_msg" layoutX="120.0" layoutY="59.0" prefHeight="164.0" prefWidth="322.0" text="你好，我是" />
+        <Button layoutX="373.0" layoutY="253.0" mnemonicParsing="false" onAction="#clickApply" prefHeight="30.0" prefWidth="59.0" text="发送" />
+        <Button layoutX="281.0" layoutY="253.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="59.0" text="取消" />
+    </children>
+</AnchorPane>

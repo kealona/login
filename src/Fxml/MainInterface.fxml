@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="306.0" stylesheets="@CSS/MainInterfaceCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainInterfaceController">
+   <children>
+      <Pane fx:id="mine" layoutY="-4.0" prefHeight="140.0" prefWidth="306.0" stylesheets="@CSS/LoginCSS.css">
+         <children>
+            <Label fx:id="user_name" layoutX="116.0" layoutY="44.0" text="Karam">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="user_label" layoutX="116.0" layoutY="78.0" prefHeight="15.0" prefWidth="126.0" text="Jesus In LA">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="head" fitHeight="83.0" fitWidth="83.0" layoutX="23.0" layoutY="30.0" onMouseClicked="#clickMyHeadButton" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="-7.0" layoutY="134.0" prefHeight="451.0" prefWidth="320.0">
+         <children>
+            <ListView layoutX="7.0" layoutY="45.0" prefHeight="384.0" prefWidth="306.0" />
+            <TabPane layoutX="7.0" prefHeight="451.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="300.0" tabMaxWidth="1000.0" tabMinHeight="35.0" tabMinWidth="84.0">
+              <tabs>
+                <Tab text="消息">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane prefHeight="407.0" prefWidth="306.0">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="404.0" prefWidth="307.0">
+                                       <children>
+                                          <ListView fx:id="msgList" prefHeight="411.0" prefWidth="306.0" />
+                                       </children></AnchorPane>
+                                </content>
+                              </ScrollPane>
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+                <Tab text="联系人">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane prefHeight="384.0" prefWidth="306.0">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="387.0" prefWidth="305.0">
+                                       <children>
+                                          <Accordion prefHeight="384.0" prefWidth="306.0">
+                                            <panes>
+                                              <TitledPane animated="false" prefHeight="40.0" text="新朋友">
+                                                   <content>
+                                                      <ListView fx:id="newFriendList" prefHeight="200.0" prefWidth="200.0" />
+                                                   </content>
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </TitledPane>
+                                              <TitledPane animated="false" text="我的好友">
+                                                   <content>
+                                                      <ListView fx:id="friendList" prefHeight="336.0" prefWidth="306.0" />
+                                                   </content>
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </TitledPane>
+                                            </panes>
+                                          </Accordion>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </ScrollPane>
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="群聊">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane prefHeight="384.0" prefWidth="306.0">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Accordion layoutX="-1.0" prefHeight="384.0" prefWidth="306.0">
+                                            <panes>
+                                              <TitledPane animated="false" prefHeight="99.0" prefWidth="306.0" text="新群聊">
+                                                   <content>
+                                                      <ListView fx:id="newGroupList" prefHeight="200.0" prefWidth="200.0" />
+                                                   </content>
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                              </TitledPane>
+                                              <TitledPane animated="false" text="我的群聊">
+                                                   <content>
+                                                      <ListView fx:id="groupList" prefHeight="359.0" prefWidth="304.0" />
+                                                   </content>
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                              </TitledPane>
+                                            </panes>
+                                          </Accordion>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </Pane>
+      <Pane fx:id="AppPage" layoutY="584.0" prefHeight="36.0" prefWidth="306.0">
+         <children>
+            <Button fx:id="add" mnemonicParsing="false" onMouseClicked="#searchInformation" prefHeight="33.0" prefWidth="33.0" stylesheets="@CSS/LoginCSS.css" />
+            <Button fx:id="create" layoutX="33.0" mnemonicParsing="false" onAction="#clickCreateGroup" prefHeight="33.0" prefWidth="33.0" stylesheets="@CSS/LoginCSS.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

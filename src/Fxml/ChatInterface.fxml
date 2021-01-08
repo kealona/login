@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="604.0" stylesheets="@CSS/ChatCSS.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ChatController">
+   <children>
+      <Pane layoutX="-3.0" prefHeight="51.0" prefWidth="610.0">
+         <children>
+            <Label fx:id="friend_remark" alignment="CENTER" contentDisplay="CENTER" layoutX="243.0" layoutY="14.0" prefHeight="30.0" prefWidth="124.0" text="备注" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <ListView fx:id="chatList" layoutY="53.0" prefHeight="377.0" prefWidth="604.0" />
+      <TextArea fx:id="msg" layoutY="429.0" prefHeight="141.0" prefWidth="604.0" promptText="在此输入...">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="sendBtn" layoutX="481.0" layoutY="513.0" mnemonicParsing="false" onAction="#msgsend" prefHeight="37.0" prefWidth="91.0" text="发送" />
+      <Button fx:id="image" layoutX="74.0" layoutY="396.0" mnemonicParsing="false" onAction="#clickPhoto" prefHeight="36.0" prefWidth="37.0" />
+      <Button fx:id="file" layoutX="37.0" layoutY="396.0" mnemonicParsing="false" onAction="#clickFile" prefHeight="36.0" prefWidth="37.0" />
+      <Button fx:id="emoji" layoutY="396.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+      <ChoiceBox fx:id="commonWords" layoutX="294.0" layoutY="513.0" prefHeight="37.0" prefWidth="150.0" />
+      <Button fx:id="MsgBtn" layoutX="527.0" layoutY="396.0" mnemonicParsing="false" onAction="#clickMsgList" prefHeight="36.0" prefWidth="76.0" text="聊天记录" />
+      <Pane fx:id="msgPane" layoutX="43.0" layoutY="42.0" prefHeight="518.0" prefWidth="515.0" visible="false">
+         <children>
+            <ListView fx:id="msgInformationList" prefHeight="518.0" prefWidth="515.0" />
+            <Button fx:id="ComeBack" layoutX="400.0" layoutY="467.0" mnemonicParsing="false" onAction="#clickReturn" prefHeight="37.0" prefWidth="91.0" text="返回" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
